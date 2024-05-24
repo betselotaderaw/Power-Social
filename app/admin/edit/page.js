@@ -6,7 +6,7 @@ import { useRouter as useNextRouter } from 'next/navigation';
 export default function Edit() {
     const router = useNextRouter();
     const [searchParams] = useSearchParams();
-    const id = searchParams[1];
+    const id = searchParams.at(1);
 
     const [pricingData, setPricingData] = useState(null);
 
