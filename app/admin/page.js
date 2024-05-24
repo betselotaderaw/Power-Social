@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import PocketBase from 'pocketbase';
 import Link from "next/link";
+import { Suspense } from 'react'
 export default  function Admin() {
     const [pricingData, setPricingData] = useState([]);
 
@@ -80,9 +81,11 @@ export default  function Admin() {
                             {plan.order}
                         </td>
                         <td>
+                        <Suspense fallback={<div>Loading...</div>}>
                             <Link href={`/admin/edit?id=${plan.id}`}>
                                 Edit
                             </Link>
+                        </Suspense>
                         </td>
                     </tr>
                 ))}
