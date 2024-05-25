@@ -2,7 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheckCircle,faUserGroup } from '@fortawesome/free-solid-svg-icons'
 
-const Pricebox = ({ title, price, features, buttonText,people }) => {
+const Pricebox = ({ title, price, features, buttonText,people,oldPrice }) => {
     const featuresList = features.split(',').map((features) => features.trim());
   return (
       <div
@@ -33,7 +33,8 @@ const Pricebox = ({ title, price, features, buttonText,people }) => {
               ))}
           </ul>
           <div className="flex-grow px-4 py-2 flex flex-col items-center justify-center">
-              <span className="text-3xl font-bold">{price}</span>
+              <span className="text-3xl font-bold">
+                  <del className="opacity-50">{oldPrice}</del> {price}</span>
           </div>
           <div className="px-4 py-2 text-center">
               <button className="px-4 py-2 bg-blue-600 text-white font-bold rounded-md">

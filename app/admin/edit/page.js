@@ -61,7 +61,7 @@ export default function Edit() {
     };
 
     return (
-        <div className=" shadow-md rounded p-12 mt-6">
+        <div className=" shadow-md rounded p-12 mt-20">
             {pricingData ? (
                     <div className="grid grid-cols-2 gap-4">
                         <div className="mb-4">
@@ -77,19 +77,8 @@ export default function Edit() {
                                 onChange={handleInputChange}
                             />
                         </div>
-                        <div className="mb-4">
-                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="price">
-                                Price
-                            </label>
-                            <input
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                                id="price"
-                                type="text"
-                                name="price"
-                                value={pricingData.price}
-                                onChange={handleInputChange}
-                            />
-                        </div>
+
+
                         <div className="mb-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="features">
                                 Features
@@ -141,6 +130,34 @@ export default function Edit() {
                                 value={pricingData.buttonText}
                                 onChange={handleInputChange}
                             />
+                        </div>
+
+                        <div className="mb-4">
+                            <div className="">
+                                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="price">
+                                    Price
+                                </label>
+                                <input
+                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="price"
+                                    type="text"
+                                    name="price"
+                                    value={pricingData.price}
+                                    onChange={handleInputChange}
+                                /></div>
+                            <div className="">
+                                <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="price">
+                                    Old Price
+                                </label>
+                                <input
+                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="oldPrice"
+                                    type="text"
+                                    name="oldPrice"
+                                    value={pricingData.oldPrice}
+                                    onChange={handleInputChange}
+                                />
+                            </div>
                         </div>
 
                         <div className="flex  justify-items-end">
