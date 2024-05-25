@@ -29,8 +29,8 @@ export default  function Admin() {
     }, []);
 
     return (
-        <div className="p-12 mt-6 ">
-            <h6 className="text-3xl font-bold mb-5">Price Edit</h6>
+        <div className="p-12 mt-20 ">
+
             { pricingData.length  ?( <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
