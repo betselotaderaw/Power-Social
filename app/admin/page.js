@@ -31,7 +31,7 @@ export default  function Admin() {
     return (
         <div className="p-12 mt-6 ">
             <h6 className="text-3xl font-bold mb-5">Price Edit</h6>
-            <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            { pricingData.length  ?( <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                 <tr>
                     <th scope="col" className="px-6 py-3">
@@ -90,7 +90,14 @@ export default  function Admin() {
 
 
                 </tbody>
-            </table>
+            </table> ):
+                <div className="flex justify-center items-center h-screen">
+                    <div className="spinner-border animate-spin inline-block w-8 h-8 border-4 rounded-full"
+                         role="status">
+                        <span className="visually-hidden">(-.-)</span>
+                    </div>
+                </div>
+            }
         </div>
     )
 }

@@ -31,13 +31,18 @@ export default  function Price(){
 
     return (
         <div className="p-12 mt-6 ">
-            <Row gutter={[20, 20]}>
+            {pricingData.length > 0 ? <Row gutter={[20, 20]}>
                 {pricingData.map((plan) => (
                     <Col key={plan.id} xs={24} md={8} lg={6}>
                         <PriceBox key={plan.title} {...plan} />
                     </Col>
                 )) ?? <></>}
-            </Row>
+            </Row> : <div className="flex justify-center items-center h-screen">
+                <div className="spinner-border animate-spin inline-block w-8 h-8 border-4 rounded-full" role="status">
+                <span className="visually-hidden">(-.-)</span>
+                </div>
+                </div>
+            }
         </div>
     );
 }
