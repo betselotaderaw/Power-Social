@@ -72,9 +72,8 @@ export function page() {
                 </button>
             </div>
             <div className="sm:px-10 md:px-15 lg:px-65 xl:px-65">
-                <div className="container">
                     <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
-                        Our company is dedicated to empowering you in the ever-evolving world of social media.
+                        Company Social Media is dedicated to empowering you in the ever-evolving world of social media.
                         Founded in June 2020, we're a passionate team of social media experts, developers, and marketing
                         specialists with a shared goal: to help you achieve social media success.</p>
                     <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
@@ -122,7 +121,6 @@ export function page() {
                     </p>
 
 
-                </div>
             </div>
             <div className="relative ">
                 <img
@@ -131,6 +129,38 @@ export function page() {
                     alt=""
                 />
             </div>
+            <div className="sm:px-10 md:px-15 lg:px-65 xl:px-65">
+                <p className="mb-4 text-2xl font-bold  sm:text-1xl md:text-2xl">
+                    How We Here To Help You Win
+                </p>
+                <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
+                    We don't do cookie-cutter plans. We tailor strategies for each client's goals, using data and expert
+                    content creation to grow your audience.
+                </p>
+                <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
+                    <strong>Our focus:</strong> Engagement, not just followers. We build real communities around your
+                    brand through social media management and reporting that keeps you informed.
+                </p>
+                <p className="mb-4 text-base !leading-relaxed text-body-color font-bold sm:text-sm md:text-md">
+                    The Benefits:
+                </p>
+                <p className="mb-1 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                    • Greater online visibility
+                </p>
+                <p className="mb-1 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                    • Improved sales & conversions
+                </p>
+                <p className="mb-1 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                    • Boosted engagement
+                </p>
+                <p className="mb-4 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                    • Increased brand awareness
+                </p>
+                <p className="mb-4 font-bold sm:text-sm md:text-md">
+                    Ready to win on social media? Let's chat!
+                </p>
+            </div>
+
         </div>
     );
 }
