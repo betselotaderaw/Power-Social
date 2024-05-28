@@ -48,7 +48,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative  flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            <div className="max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -71,7 +71,7 @@ const Header = () => {
                 />
               </Link>
             </div>
-            <div className="flex w-1/2 items-center justify-between mr-4">
+            <div className="flex items-center justify-between mr-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
