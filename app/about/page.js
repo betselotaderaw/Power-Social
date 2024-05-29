@@ -1,10 +1,11 @@
 import Aboutus from "./aboutus";
 
 
-export default function About() {
+const Page = () => {
     return (
         <>
            <Aboutus/>
         </>
     )
 }
+export default Page;
