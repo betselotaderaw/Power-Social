@@ -5,7 +5,7 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Top: 0 takes us all the way back to the top of the page
+  // Top: 0 takes us all the way back to the top of the aboutus
   // Behavior: smooth keeps it smooth!
   const scrollToTop = () => {
     window.scrollTo({

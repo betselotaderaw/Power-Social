@@ -37,7 +37,7 @@ const menuData = [
     newTab: false,
     submenu: [
       { id: 41, title: "Post Likes", path: "/facebook/post-likes", newTab: false },
-      { id: 42, title: "Page Likes", path: "/facebook/page-likes", newTab: false },
+      { id: 42, title: "Page Likes", path: "/facebook/aboutus-likes", newTab: false },
       { id: 43, title: "Comments", path: "/facebook/comments", newTab: false },
     ],
   },
