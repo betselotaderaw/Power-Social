@@ -49,7 +49,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative  flex items-center justify-between">
-            <div className="max-w-full px-4 xl:mr-12">
+            <div className="max-w-full pr-2.5 pb-2">
               <Link
                 href="/"
                 className={`header-logo block w-full ${

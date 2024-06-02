@@ -80,7 +80,7 @@ const menuData = [
   },
   {
     id: 7,
-    title: "Contact Us",
+    title: "Contact",
     path: "/contact",
     newTab: false,
     icon:   faPhone,
