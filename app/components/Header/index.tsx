@@ -128,6 +128,7 @@ const Header = () => {
                                   key={index}
                                   className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
                                 >
+                                  <FontAwesomeIcon icon={submenuItem.icon} size="sm" className="text-blue-500 mr-2 mt-1"/>
                                   {submenuItem.title}
                                 </Link>
                               ))}
