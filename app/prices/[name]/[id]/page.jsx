@@ -16,8 +16,8 @@ const PriceDef = ({ params }) => {
 
     const submenu = fetchSubmenu(id);
     return (
-        <div className="px-10 mt-20 flex justify-center">
-            <div className=" p-6 rounded-lg shadow-lg" >
+        <div className="pl-32 mt-28 flex justify-center">
+            <div className=" p-6" >
                 <div className="flex items-center mb-4">
                     <FontAwesomeIcon icon={submenu?.icon} size="2x" className="text-blue-500 mr-4"/>
                     <h1 className="text-2xl font-bold">{submenu?.title}</h1>
