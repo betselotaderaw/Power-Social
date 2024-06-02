@@ -2,6 +2,7 @@
 import React, {useEffect} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowLeft, faArrowRight} from "@fortawesome/free-solid-svg-icons";
+import WhyChooseUs from "./whyChooseus";
 export function aboutus() {
     const data = [
         {
@@ -71,7 +72,7 @@ export function aboutus() {
                     <FontAwesomeIcon icon={faArrowRight} size="xs" className="text-white"/>
                 </button>
             </div>
-            <div className="sm:px-10 md:px-15 lg:px-65 xl:px-65">
+            <div className="sm:px-80 md:px-80 lg:px-80 xl:px-44">
                     <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
                         Company Social Media is dedicated to empowering you in the ever-evolving world of social media.
                         Founded in June 2020, we're a passionate team of social media experts, developers, and marketing
@@ -86,18 +87,18 @@ export function aboutus() {
                     <p className="mb-4 text-base !leading-relaxed text-body-color font-bold sm:text-sm md:text-md">
                         Here's what sets us apart:
                     </p>
-                    <p className="mb-4 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                    <p className="mb-4 sm:pl-6 md:pl-6 lg:pl-6 xl:pl-14 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                         • <strong>Platform-Specific Strategies:</strong> We don't believe in a one-size-fits-all
                         approach. Our team stays
                         up-to-date on the latest trends and algorithms for each platform, ensuring your social media
                         strategy is optimized for maximum impact.
                     </p>
-                    <p className="mb-4 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                    <p className="mb-4 sm:pl-6 md:pl-6 lg:pl-6 xl:pl-14 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                         • <strong>Results-Oriented Approach:</strong> We're data-driven and transparent. We track your
                         progress, analyze results, and constantly refine our strategies to ensure you're getting the
                         most out of your social media investment.
                     </p>
-                    <p className="mb-4 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                    <p className="mb-4 sm:pl-6 md:pl-6 lg:pl-6 xl:pl-14 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                         • <strong>Experienced Team:</strong> Our team boasts a wealth of experience across social media
                         marketing, development, and content creation. We're passionate about what we do and dedicated to
                         your success.
@@ -129,7 +130,7 @@ export function aboutus() {
                     alt=""
                 />
             </div>
-            <div className="sm:px-10 md:px-15 lg:px-65 xl:px-65">
+            <div className="sm:px-80 md:px-80 lg:px-80 xl:px-44">
                 <p className="mb-4 text-2xl font-bold  sm:text-1xl md:text-2xl">
                     How We Here To Help You Win
                 </p>
@@ -144,23 +145,28 @@ export function aboutus() {
                 <p className="mb-4 text-base !leading-relaxed text-body-color font-bold sm:text-sm md:text-md">
                     The Benefits:
                 </p>
-                <p className="mb-1 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                <p className="mb-1  sm:pl-6 md:pl-6 lg:pl-6 xl:pl-14 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                     • Greater online visibility
                 </p>
-                <p className="mb-1 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                <p className="mb-1  sm:pl-6 md:pl-6 lg:pl-6 xl:pl-14 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                     • Improved sales & conversions
                 </p>
-                <p className="mb-1 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                <p className="mb-1  sm:pl-6 md:pl-6 lg:pl-6 xl:pl-14 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                     • Boosted engagement
                 </p>
-                <p className="mb-4 sm:px-15 md:px-20 lg:px-30 xl:px-40 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
+                <p className="mb-4  sm:pl-6 md:pl-6 lg:pl-6 xl:pl-14 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                     • Increased brand awareness
                 </p>
                 <p className="mb-4 font-bold sm:text-sm md:text-md">
                     Ready to win on social media? Let's chat!
                 </p>
             </div>
-
+            <div className="sm:px-80 md:px-80 lg:px-80 xl:px-44">
+                <p className="mb-4 text-2xl font-bold  sm:text-1xl md:text-2xl">
+                    Why Choose SocialUp
+                </p>
+                <WhyChooseUs/>
+            </div>
         </div>
     );
 }
