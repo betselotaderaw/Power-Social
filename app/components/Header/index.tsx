@@ -77,7 +77,7 @@ const Header = () => {
                             className={`flex py-2 text-base lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary "
-                                : "text-dark hover:text-primary  "
+                                : " hover:text-primary  "
                             }`}
                           >
                             <FontAwesomeIcon icon={menuItem.icon} size="sm" className="text-blue-500 mr-2 mt-1"/>
@@ -87,7 +87,7 @@ const Header = () => {
                           <>
                             <p
                               onClick={() => handleSubmenu(index)}
-                              className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-primary  lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
+                              className="flex cursor-pointer items-center justify-between py-2 text-base group-hover:text-primary  lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
                               <FontAwesomeIcon icon={menuItem.icon} size="sm" className="text-blue-500 mr-2 mt-1"/>
                               {menuItem.title}
@@ -111,7 +111,7 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
-                                  className="block rounded py-2.5 text-sm text-dark hover:text-primary  lg:px-3"
+                                  className="block rounded py-2.5 text-sm hover:text-primary  lg:px-3"
                                 >
                                   <FontAwesomeIcon icon={submenuItem.icon} size="sm" className="text-blue-500 mr-2 mt-1"/>
                                   {submenuItem.title}
