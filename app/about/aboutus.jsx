@@ -73,11 +73,11 @@ export function aboutus() {
                 </button>
             </div>
             <div className="sm:px-80 md:px-80 lg:px-80 xl:px-44">
-                    <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
+                    <p className="mb-4 text-base !leading-relaxed text-body-color sm:text-sm md:text-md">
                         Company Social Media is dedicated to empowering you in the ever-evolving world of social media.
                         Founded in June 2020, we're a passionate team of social media experts, developers, and marketing
                         specialists with a shared goal: to help you achieve social media success.</p>
-                    <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
+                    <p className="mb-4 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                         We understand the complexities of navigating different platforms and the constant need to stay
                         ahead of the curve. That's why we provide a comprehensive suite of services tailored to each
                         major social media platform. Whether you're looking to amplify your brand presence, build a
@@ -103,7 +103,7 @@ export function aboutus() {
                         marketing, development, and content creation. We're passionate about what we do and dedicated to
                         your success.
                     </p>
-                    <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
+                    <p className="mb-4 text-base !leading-relaxed text-body-color  md:text-md">
                         <strong>Don't let social media overwhelm you.</strong> Let Company Social Media be your partner
                         in achieving your social media goals. Contact us today and let's discuss how we can help you
                         take your social presence to the next level.
@@ -111,7 +111,7 @@ export function aboutus() {
                     <p className="mb-4 text-2xl font-bold  sm:text-1xl md:text-2xl">
                         Our Mission
                     </p>
-                    <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
+                    <p className="mb-4 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                         We're on a mission to make social media success accessible to everyone. We believe that strong
                         social media presence is essential for businesses and individuals alike. We're here to equip you
                         with the tools and strategies you need to thrive in the digital landscape.
@@ -134,11 +134,11 @@ export function aboutus() {
                 <p className="mb-4 text-2xl font-bold  sm:text-1xl md:text-2xl">
                     How We Here To Help You Win
                 </p>
-                <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
+                <p className="mb-4 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                     We don't do cookie-cutter plans. We tailor strategies for each client's goals, using data and expert
                     content creation to grow your audience.
                 </p>
-                <p className="mb-4 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-sm md:text-md">
+                <p className="mb-4 text-base !leading-relaxed text-body-color  sm:text-sm md:text-md">
                     <strong>Our focus:</strong> Engagement, not just followers. We build real communities around your
                     brand through social media management and reporting that keeps you informed.
                 </p>
