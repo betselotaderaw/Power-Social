@@ -5,7 +5,7 @@ const Hero = () => {
         <>
             <section
                 id="home"
-                className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] flex justify-center"
+                className="relative z-10 overflow-hidden  pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] flex justify-center"
             >
                 <div className="container">
                     <div className="flex flex-wrap">
@@ -14,7 +14,7 @@ const Hero = () => {
                                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                                     Grow your business with Company Social Media
                                 </h1>
-                                <p className="mb-12 text-base !leading-relaxed text-body-color  sm:text-lg md:text-xl">
+                                <p className="mb-12 text-base !leading-relaxed  sm:text-lg md:text-xl">
                                     Unlock the potential of your business by enhancing social interactions. Foster meaningful connections with customers through dynamic engagement strategies. Leverage social media and digital platforms to expand your reach and influence. Empower your brand to thrive in a connected world.
                                 </p>
                                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">

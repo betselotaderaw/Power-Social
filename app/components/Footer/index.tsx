@@ -118,7 +118,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/blog"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary "
+                      className="mb-4 inline-block text-base  duration-300 hover:text-primary "
                     >
                       Blog
                     </Link>
@@ -127,7 +127,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary "
+                      className="mb-4 inline-block text-base  duration-300 hover:text-primary "
                     >
                       About us
                     </Link>
@@ -145,7 +145,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/public"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary "
+                      className="mb-4 inline-block text-base  duration-300 hover:text-primary "
                     >
                       Terms of Service
                     </Link>
@@ -153,7 +153,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/public"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary "
+                      className="mb-4 inline-block text-base  duration-300 hover:text-primary "
                     >
                       Payment Policy
                     </Link>
@@ -172,7 +172,7 @@ const Footer = () => {
                   <li>
                     <Link
                       href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary "
+                      className="mb-4 inline-block text-base duration-300 hover:text-primary "
                     >
                       Contact us
                     </Link>
