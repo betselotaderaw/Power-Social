@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import PocketBase from 'pocketbase';
 import { useSearchParams } from 'next/navigation';
 import { useRouter as useNextRouter } from 'next/navigation';
+import DbAuth  from "../../components/Utils/DbAuth";
+import {fetchById} from "../../Data/fetchData";
 export default function Edit() {
     const router = useNextRouter();
     const [searchParams] = useSearchParams();
@@ -12,15 +14,8 @@ export default function Edit() {
 
 
     const fetchPricingData = async () => {
-        const pb = new PocketBase('https://power-.pockethost.io');
-        const authData = await pb.admins.authWithPassword('aderawbetselot@gmail.com', '0987654321');
-        const accessToken = authData.token;
+        const data = id && await fetchById(id)
 
-        const data = await pb.collection('pricingData').getOne(id, {
-            headers: {
-                'Authorization': `Bearer ${accessToken}`
-            }
-        });
         setPricingData(data);
     };
 
@@ -39,20 +34,14 @@ export default function Edit() {
     };
 
     const handleSave = async () => {
-        const pb = new PocketBase('https://power-.pockethost.io');
-        const authData = await pb.admins.authWithPassword('aderawbetselot@gmail.com', '0987654321');
-        const accessToken = authData.token;
-        await pb.collection('pricingData').update(pricingData.id, pricingData,{
-            headers: {
-                'Authorization': `Bearer ${accessToken}`
-            }
-        });
+        const Dbpb = await DbAuth();
+        await Dbpb.collection('pricingData').update(pricingData.id, pricingData);
         router.push('/admin');
     };
 
     const handleDelete = async () => {
-        const pb = new PocketBase('http://127.0.0.1:8090');
-        await pb.collection('pricingData').deleteOne(pricingData.id);
+        const Dbpb = await DbAuth();
+       await Dbpb.collection('pricingData').deleteOne(pricingData.id);
         router.push('/admin');
     };
 
