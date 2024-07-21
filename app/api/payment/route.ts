@@ -12,6 +12,7 @@ const client = new Coinpayments({
 // Define the data form with hardcoded values for testing
 const dataForm = {
     amount: 1, // Test amount
+
     currency1: 'LTCT', // Base currency
     currency2: 'LTCT', // Litecoin Testnet
     buyer_email: 'betselotagermany@gmail.com', // Test email
