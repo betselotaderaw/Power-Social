@@ -12,7 +12,7 @@ const Hero = () => {
                         <div className="w-full px-4">
                             <div className="mx-auto text-center">
                                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                                    Grow your business with Company Social Media
+                                    Grow your business with Company Social Media     ABBBBBBBBBBBBBBBBBBBBBBBBBBB
                                 </h1>
                                 <p className="mb-12 text-base !leading-relaxed text-body-color  sm:text-lg md:text-xl">
                                     Unlock the potential of your business by enhancing social interactions. Foster meaningful connections with customers through dynamic engagement strategies. Leverage social media and digital platforms to expand your reach and influence. Empower your brand to thrive in a connected world.
